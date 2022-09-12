@@ -1,0 +1,249 @@
+.nav-ul-cla, .nav-ul button, .nav-ul a {
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nav-ul button {
+  background-color: red;
+  padding: 5px 30px;
+  transition: all 0.8s ease;
+}
+.nav-ul button:hover {
+  background-color: rgb(249, 236, 236);
+  color: red !important;
+  border-color: red;
+}
+
+.sec-1 p,
+.sec-2 p,
+.sec-3 p,
+.sec-4 p,
+.sec-5 p {
+  font-size: 22px;
+}
+.sec-1 .btn-1,
+.sec-1 a,
+.sec-2 .btn-1,
+.sec-2 a,
+.sec-3 .btn-1,
+.sec-3 a,
+.sec-4 .btn-1,
+.sec-4 a,
+.sec-5 .btn-1,
+.sec-5 a {
+  background-color: #5266df;
+}
+.sec-1 button,
+.sec-1 a,
+.sec-2 button,
+.sec-2 a,
+.sec-3 button,
+.sec-3 a,
+.sec-4 button,
+.sec-4 a,
+.sec-5 button,
+.sec-5 a {
+  padding: 15px 20px;
+  font-weight: 500;
+  box-shadow: 1px 1px 7px 2px rgb(224, 223, 223), -1px -1px 7px 2px rgb(224, 223, 223);
+}
+
+.sec-2 .divider {
+  content: "";
+  width: 50%;
+  height: 0.5px;
+  background-color: rgb(192, 188, 188);
+}
+.sec-2 .divider .line {
+  content: "";
+  width: 36%;
+  height: 4.5px;
+  background-color: red;
+  margin-top: -3.5px;
+}
+
+.sec-4-p {
+  font-size: 14px !important;
+  font-weight: 600;
+}
+
+.sec-4-div {
+  border-radius: 18px;
+  box-shadow: 2px 2px 15px 2px rgb(224, 223, 223), -2px -2px 15px 2px rgb(237, 236, 236);
+  padding-top: 35px;
+  width: 18rem;
+}
+.sec-4-div img {
+  width: 7rem;
+}
+
+.sec-4-col2 {
+  margin-top: 50px;
+}
+
+.sec-4-col3 {
+  margin-top: 100px;
+}
+
+.sec-5 button {
+  box-shadow: none;
+}
+
+.sec-6 {
+  background-color: #5266df;
+}
+.sec-6 p {
+  letter-spacing: 2.5px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.sec-6 button {
+  background-color: rgb(247, 123, 123);
+  width: 200px;
+  padding: 10px 18px;
+}
+
+.foo {
+  background-color: rgb(44, 44, 88);
+}
+
+.part1 li {
+  padding: 0 40px;
+}
+
+.part2 a {
+  color: #fff;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .sec-1,
+.sec-3 {
+    text-align: center;
+  }
+  .sec-2 .list-inline .list-inline-item {
+    display: block;
+    margin: auto;
+    padding-right: 50px;
+  }
+  .sec-2 .divider {
+    display: none;
+  }
+  .sec-2 .divider .line {
+    display: none;
+  }
+  .sec-4 {
+    margin-left: -10px;
+  }
+  .sec-4 .sec-4-div {
+    margin: auto;
+    display: block;
+  }
+  .sec-4-col3 {
+    margin-top: 50px;
+  }
+  .sec-6 button {
+    margin-top: 18px;
+  }
+  .foo .part1 {
+    text-align: center;
+  }
+  .foo .part1 span {
+    display: block;
+    margin: 25px 0;
+  }
+  .foo .part2 {
+    text-align: center;
+    margin-top: 35px;
+  }
+}
+@media screen and (max-width: 700px) and (min-width: 601px) {
+  .sec-4 .sec-4-row2 {
+    margin-left: -50px;
+    text-align: center;
+  }
+  .sec-4 .sec-4-row2 .sec-4-col2 {
+    margin-top: 410px;
+    text-align: center;
+  }
+  .sec-4 .sec-4-row2 .sec-4-col3 {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 800px) and (min-width: 701px) {
+  .sec-4 .sec-4-row2 {
+    margin-left: -85px;
+    text-align: center;
+  }
+  .sec-4 .sec-4-row2 .sec-4-col2 {
+    margin-top: 0px;
+    text-align: center;
+    margin-left: 60px;
+  }
+  .sec-4 .sec-4-row2 .sec-4-col3 {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 800px) {
+  .sec-1, .sec-2,
+.sec-3, .sec-5, .sec-6 {
+    text-align: center;
+    margin-left: -25px;
+  }
+  .sec-1 .container, .sec-2 .container,
+.sec-3 .container, .sec-5 .container, .sec-6 .container {
+    max-width: 900px;
+  }
+  .sec-3 button {
+    margin-top: 30px;
+  }
+  .sec-4 h1, .sec-4 p {
+    text-align: center;
+    max-width: 830px;
+    margin: auto;
+    margin-left: 0px;
+    padding-top: 20px;
+  }
+  .sec-4 .sec-4-row2 {
+    margin-left: -85px;
+  }
+  .sec-4 .sec-4-row2 .sec-4-col2 {
+    margin-top: 0px;
+    margin-left: 50px;
+  }
+  .sec-4 .sec-4-row2 .sec-4-col3 {
+    margin-top: 30px;
+  }
+  .foo .part1 ul {
+    display: block;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width: 901px) {
+  .sec-1, .sec-2,
+.sec-3, .sec-5, .sec-6 {
+    text-align: center;
+    margin-left: 0px;
+  }
+  .sec-3 button {
+    margin-top: 30px;
+  }
+  .sec-4 h1, .sec-4 p {
+    text-align: center;
+    margin: auto;
+    margin-left: 0px;
+    padding-top: 20px;
+  }
+  .sec-4 .sec-4-row2 {
+    margin-left: -90px;
+  }
+  .sec-4 .sec-4-row2 .sec-4-col2 {
+    margin-top: 0px;
+    margin-left: 50px;
+  }
+  .sec-4 .sec-4-row2 .sec-4-col3 {
+    margin-top: 30px;
+  }
+}/*# sourceMappingURL=style.css.map */
